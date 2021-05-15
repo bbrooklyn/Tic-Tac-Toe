@@ -39,7 +39,7 @@ def tictac(x,y):
                 values += 1
         if values == 3: win = True
         values = 0
-        # Corner Checks - for diagonal wins
+        # Corner Checks - for diagonal win
         if waffle.get_pixel(1,1) == colour:
             for v in range(0,3,2):
                 if waffle.get_pixel(v,0) == colour:
