@@ -64,8 +64,5 @@ def tictac(x,y):
             turn.value = "Player %s's turn"%player
             turn.text_color = "Red"
     
-
-
-
 waffle = Waffle(app,dim=50,command=tictac)
 app.display()
